@@ -15,6 +15,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Loops", "Loops\Loops.csproj
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Classes", "Classes\Classes.csproj", "{98618D22-00B3-4A3B-A138-13B271A06C05}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Interfaces", "Interfaces\Interfaces.csproj", "{EA3C790F-472A-4F7A-A492-C1360D88A6C1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InterfacesDemo", "InterfacesDemo\InterfacesDemo.csproj", "{D8A776A9-F6D0-46DE-99E2-12F7CE81B4E4}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -45,6 +49,14 @@ Global
 		{98618D22-00B3-4A3B-A138-13B271A06C05}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{98618D22-00B3-4A3B-A138-13B271A06C05}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{98618D22-00B3-4A3B-A138-13B271A06C05}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EA3C790F-472A-4F7A-A492-C1360D88A6C1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EA3C790F-472A-4F7A-A492-C1360D88A6C1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EA3C790F-472A-4F7A-A492-C1360D88A6C1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EA3C790F-472A-4F7A-A492-C1360D88A6C1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D8A776A9-F6D0-46DE-99E2-12F7CE81B4E4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D8A776A9-F6D0-46DE-99E2-12F7CE81B4E4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D8A776A9-F6D0-46DE-99E2-12F7CE81B4E4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D8A776A9-F6D0-46DE-99E2-12F7CE81B4E4}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
