@@ -56,7 +56,7 @@ namespace TypeAndVariables
         //Tekrar yazmanin onune gecmek icin kullanilir
         enum Days
         {
-            Monday, Tuesdat, Wednesday, Thursday, Friday, Saturday, Sunday
+            Monday, Tuesday, Wednesday, Thursday, Friday, Saturday, Sunday
 
         }
     }
