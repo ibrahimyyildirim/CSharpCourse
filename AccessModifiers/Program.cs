@@ -21,7 +21,7 @@ namespace AccessModifiers
 
     Internal: class'ın default'u internal'dır.
     Bağlı bulunduğu projede referans ihtiyacı olmadan kullanılabilir.
-    Üst classlar private ve protected olamaz ! Ancak iç içe classlar kullanılır.
+    Üst classlar private ve protected olamaz ! Ancak iç içe classlarda kullanılır.
 
     public: farklı bir projeden de kullanmak istediğimiz zaman kullanılır.*/
     class Customer
