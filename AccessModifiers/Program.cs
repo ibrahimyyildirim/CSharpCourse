@@ -14,7 +14,8 @@ namespace AccessModifiers
         }
     }
 
-    /*Private: property tanımladığımızda default'u 'private'tır. Sadece tanımlandığı blok içinde geçerlidir.
+    /*
+    Private: property tanımladığımızda default'u 'private'tır. Sadece tanımlandığı blok içinde geçerlidir.
 
     Protected: private'ın tüm özelliğini kapsar.
     Private'dan tek farkı tanımlanan method, property vs. intherite edildiği sınıflarda da kullanılabilir.
@@ -23,7 +24,8 @@ namespace AccessModifiers
     Bağlı bulunduğu projede referans ihtiyacı olmadan kullanılabilir.
     Üst classlar private ve protected olamaz ! Ancak iç içe classlarda kullanılır.
 
-    public: farklı bir projeden de kullanmak istediğimiz zaman kullanılır.*/
+    public: farklı bir projede kullanmak istediğimiz zaman kullanılır.
+    */
     class Customer
     {
         protected int Id;
