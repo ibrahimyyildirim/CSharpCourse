@@ -34,6 +34,9 @@ namespace Constructors
             PersonManager personManager = new PersonManager("Person");
             personManager.Add();
 
+            //static nesne herhangi bir instance uretmeden kullanilir
+            Utilities.Validate();
+
 
             Console.ReadLine();
         }
