@@ -30,6 +30,11 @@ namespace Constructors
             EmployeeManager employeeManager = new EmployeeManager(new DatabaseLogger());
             employeeManager.Add();
 
+            //base class'in constructor'ına parametre gondermek
+            PersonManager personManager = new PersonManager("Person");
+            personManager.Add();
+
+
             Console.ReadLine();
         }
     }
