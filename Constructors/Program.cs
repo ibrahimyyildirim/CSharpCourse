@@ -25,6 +25,11 @@ namespace Constructors
             //Nesne ornekleri icin farkli bir contructor kullanimi
             Product product2 = new Product(2, "Yıldırım");
 
+
+            //contructor injection
+            EmployeeManager employeeManager = new EmployeeManager(new DatabaseLogger());
+            employeeManager.Add();
+
             Console.ReadLine();
         }
     }
